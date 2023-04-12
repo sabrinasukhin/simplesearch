@@ -1,0 +1,191 @@
+[
+    {
+        "model": "searchapp.category",
+        "pk": 1,
+        "fields": {
+            "category_name": "phone"
+        }
+    },
+    {
+        "model": "searchapp.category",
+        "pk": 2,
+        "fields": {
+            "category_name": "tablet"
+        }
+    },
+    {
+        "model": "searchapp.category",
+        "pk": 3,
+        "fields": {
+            "category_name": "laptop"
+        }
+    },
+    {
+        "model": "searchapp.tag",
+        "pk": 1,
+        "fields": {
+            "tag_name": "Apple",
+            "products": [
+                9,
+                4,
+                3,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "model": "searchapp.tag",
+        "pk": 2,
+        "fields": {
+            "tag_name": "Camera",
+            "products": [
+                6,
+                5,
+                8,
+                9,
+                7,
+                4,
+                3,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "model": "searchapp.tag",
+        "pk": 3,
+        "fields": {
+            "tag_name": "Samsung",
+            "products": [
+                6,
+                5
+            ]
+        }
+    },
+    {
+        "model": "searchapp.tag",
+        "pk": 4,
+        "fields": {
+            "tag_name": "Touchscreen",
+            "products": [
+                6,
+                5,
+                7,
+                4,
+                3,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "model": "searchapp.tag",
+        "pk": 5,
+        "fields": {
+            "tag_name": "Dell",
+            "products": [
+                8,
+                7
+            ]
+        }
+    },
+    {
+        "model": "searchapp.product",
+        "pk": 1,
+        "fields": {
+            "name": "iPhone 14",
+            "category": 1
+        }
+    },
+    {
+        "model": "searchapp.product",
+        "pk": 2,
+        "fields": {
+            "name": "iPhone 14 Pro",
+            "category": 1
+        }
+    },
+    {
+        "model": "searchapp.product",
+        "pk": 3,
+        "fields": {
+            "name": "iPad Pro",
+            "category": 2
+        }
+    },
+    {
+        "model": "searchapp.product",
+        "pk": 4,
+        "fields": {
+            "name": "iPad Air",
+            "category": 2
+        }
+    },
+    {
+        "model": "searchapp.product",
+        "pk": 5,
+        "fields": {
+            "name": "Galaxy Tab S7",
+            "category": 2
+        }
+    },
+    {
+        "model": "searchapp.product",
+        "pk": 6,
+        "fields": {
+            "name": "Galaxy S22",
+            "category": 1
+        }
+    },
+    {
+        "model": "searchapp.product",
+        "pk": 7,
+        "fields": {
+            "name": "XPS 15",
+            "category": 3
+        }
+    },
+    {
+        "model": "searchapp.product",
+        "pk": 8,
+        "fields": {
+            "name": "Latitude 5540",
+            "category": 3
+        }
+    },
+    {
+        "model": "searchapp.product",
+        "pk": 9,
+        "fields": {
+            "name": "MacBook Pro",
+            "category": 3
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$2pzCPNwUriLDvH0pr2qNFs$q7u8ShBOB2nUQmvmTnOtGQvnMi+KfniTF5WA1gHZ1xE=",
+            "last_login": "2023-04-11T15:47:27.694Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "sabrina@sukhin.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-04-11T15:46:49.020Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "jruf1dya5rjrzdafei3xqsbvt6yk0bnp",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSGUKY-6dO83EJgZpGogKe3K-O_apAvd3nPOfYkQt7WErfMSZhJnMYjT75YiPrjugO6x3prEVtdlTnJX5EG7vDbi5-Vw_w5K7OVbG1CUOINijxMkbRm8IzeaQVmKzpOeyKkEgGRHAqN1TmSRMHvvmUG8P-PGOD8:1pmGDP:1Kk75i2uytBCuR2IvBubyDf1H5tl0mIaSEbry1zmoMU",
+            "expire_date": "2023-04-25T15:47:27.697Z"
+        }
+    }
+]
